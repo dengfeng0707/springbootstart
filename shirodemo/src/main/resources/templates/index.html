@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>首页</title>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<!-- 注意这里，后端model中的msg需要被"引起来 -->
+<div th:text="'欢迎你,' + ${msg}"></div>
+</body>
+</html>
