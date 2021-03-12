@@ -32,3 +32,6 @@ build/
 .vscode/
 
 .mvn
+src/main/java/com/dfliu/shirodemo/shirodemo/dto/
+src/main/resources/static/
+!/.gitignore
